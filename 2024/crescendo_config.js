@@ -10,7 +10,7 @@ var config_data = `
       "type": "scouter",
       "size": 5,
       "maxSize": 5,
-      "required": "false"
+      "required": "true"
     },
     { "name": "Event",
       "code": "e",
