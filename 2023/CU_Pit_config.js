@@ -60,6 +60,10 @@ var config_data = `
       },
       "defaultValue":"x"
     },
+    { "name": "# of Batteries",
+      "code": "nob",
+      "type": "number"
+    },
     { "name": "Floor pickup Cones",
       "code": "fco",
       "type": "bool"
