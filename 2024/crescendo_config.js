@@ -128,10 +128,6 @@ var config_data = `
       },
       "defaultValue": "x"
     },
-    { "name": "Under Stage??",
-      "code": "tus",
-      "type": "bool"
-    },
     { "name": "Comments",
       "code": "telco",
       "type": "text",
@@ -203,6 +199,17 @@ var config_data = `
         "5": "5 (fast)"
       },
       "defaultValue":"3"
+    },
+    { "name": "Fouls",
+      "code": "foul",
+      "type": "radio",
+      "choices": {
+        "1": "none",
+        "2": "one",
+        "3": "few",
+        "4": "many"
+      },
+      "defaultValue":"1"
     },
     { "name": "Died/Immobilized",
       "code": "die",
