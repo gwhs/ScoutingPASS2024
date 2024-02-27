@@ -207,7 +207,7 @@ var config_data = `
         "1": "none<br>",
         "2": "one<br>",
         "3": "few<br>",
-        "4": "many<br>"
+        "4": "many"
       },
       "defaultValue":"1"
     },
