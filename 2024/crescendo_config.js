@@ -114,7 +114,7 @@ var config_data = `
       "type": "counter"
     },
     { "name": "Amplified Shots",
-      "code": "tas",
+      "code": "tamps",
       "type": "counter"
     },
     { "name": "Pickup From",
@@ -204,10 +204,10 @@ var config_data = `
       "code": "foul",
       "type": "radio",
       "choices": {
-        "1": "none<br>",
-        "2": "one<br>",
-        "3": "few<br>",
-        "4": "many"
+        "none": "none<br>",
+        "one": "one<br>",
+        "few": "few<br>",
+        "many": "many"
       },
       "defaultValue":"1"
     },
