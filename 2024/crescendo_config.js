@@ -73,9 +73,23 @@ var config_data = `
       "code": "aas",
       "type": "counter"
     },
+    { "name": "Amp Miss",
+      "code": "aam",
+      "type": "counter"
+    },
     { "name": "Speaker Scores",
       "code": "ass",
       "type": "counter"
+    },
+    { "name": "Speaker Miss",
+      "code": "asm",
+      "type": "counter"
+    },
+    { "name": "Comments",
+      "code": "autoco",
+      "type": "text",
+      "size": 15,
+      "maxSize": 55
     }
   ],
   "teleop": [
@@ -83,12 +97,24 @@ var config_data = `
       "code": "tas",
       "type": "counter"
     },
+    { "name": "Amp Miss",
+      "code": "tam",
+      "type": "counter"
+    },
     { "name": "Speaker Scores",
       "code": "tss",
       "type": "counter"
     },
+    { "name": "Speaker Miss",
+      "code": "tsm",
+      "type": "counter"
+    },
     { "name": "Times Amplified",
       "code": "tta",
+      "type": "counter"
+    },
+    { "name": "Amplified Shots",
+      "code": "tas",
       "type": "counter"
     },
     { "name": "Pickup From",
@@ -101,6 +127,16 @@ var config_data = `
         "x": "Not Attempted"
       },
       "defaultValue": "x"
+    },
+    { "name": "Under Stage??",
+      "code": "tus",
+      "type": "bool"
+    },
+    { "name": "Comments",
+      "code": "telco",
+      "type": "text",
+      "size": 15,
+      "maxSize": 55
     }
   ],
   "endgame": [
@@ -124,6 +160,12 @@ var config_data = `
     { "name": "Note in Trap",
       "code": "nit",
       "type": "bool"
+    },
+    { "name": "Comments",
+      "code": "endco",
+      "type": "text",
+      "size": 15,
+      "maxSize": 55
     }
   ],
   "postmatch": [
@@ -180,7 +222,7 @@ var config_data = `
       "type": "bool"
     },
     { "name": "Comments",
-      "code": "co",
+      "code": "postco",
       "type": "text",
       "size": 15,
       "maxSize": 55
