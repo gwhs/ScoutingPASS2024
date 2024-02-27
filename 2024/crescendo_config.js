@@ -204,10 +204,10 @@ var config_data = `
       "code": "foul",
       "type": "radio",
       "choices": {
-        "1": "none",
-        "2": "one",
-        "3": "few",
-        "4": "many"
+        "1": "none<br>",
+        "2": "one<br>",
+        "3": "few<br>",
+        "4": "many<br>"
       },
       "defaultValue":"1"
     },
