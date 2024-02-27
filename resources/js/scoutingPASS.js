@@ -936,10 +936,10 @@ function clearForm() {
     if (code == "e") continue
     if (code == "s") continue
 
-    if (e.className == "clickableImage") {
-      e.value = "[]";
-      continue;
-    }
+    // if (e.className == "clickableImage") {
+    //   e.value = "[]";
+    //   continue;
+    // }
 
     radio = code.indexOf("_")
     if (radio > -1) {
