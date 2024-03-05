@@ -65,7 +65,7 @@ var config_data = `
     }
   ],
   "auton": [
-    { "name": "Leave Starting Zone",
+    { "name": "Leave (completely leaves the gray line)",
       "code": "al",
       "type": "bool"
     },
@@ -204,7 +204,7 @@ var config_data = `
       "code": "foul",
       "type": "radio",
       "choices": {
-        "none": "none<br>",
+        " none observed": "none<br>",
         "one": "one<br>",
         "few": "few<br>",
         "many": "many"
