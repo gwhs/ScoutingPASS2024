@@ -68,8 +68,6 @@ var config_data = `
     { "name": "Number of notes in Auto?",
       "code": "aut",
       "type": "number",
-      "size": 20,
-      "maxSize": 250
     },
     { "name": "Number of notes in Tele-op?",
       "code": "tel",
