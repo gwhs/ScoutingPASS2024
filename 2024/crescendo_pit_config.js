@@ -73,13 +73,7 @@ var config_data = `
       "code": "tel",
       "type": "number"
     },
-    { "name": "Scouting Method /<br>Program (ScoutingPASS?)",
-      "code": "sct",
-      "type": "text",
-      "size": 20,
-      "maxSize": 250
-    },
-    { "name": "Comments",
+    { "name": "What is cool about your robot?",
       "code": "co",
       "type": "text",
       "size": 20,
