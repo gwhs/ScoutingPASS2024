@@ -47,7 +47,7 @@ var config_data = `
         "o": "Other ratio (put in comments)<br>",
         "x": "Not Swerve"
       },
-      "defaultValue":"3"
+      "defaultValue": "3"
     },
     { "name": "Drive Motor",
       "code": "mot",
@@ -81,7 +81,7 @@ var config_data = `
         "y": "Yes<br>",
         "n": "No<br>",
       },
-      "defaultValue":"n"
+      "defaultValue": "n"
     },
     { "name": "What is special/cool about your robot?",
       "code": "co",
