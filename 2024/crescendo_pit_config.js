@@ -40,10 +40,10 @@ var config_data = `
       "code": "sr",
       "type": "radio",
       "choices": {
-        "1": "L1 (8.14:1)<br>",
-        "2": "L2 (6.75:1)<br>",
-        "3": "L3 (6.12:1)<br>",
-        "4": "L4 (5.14:1)<br>",
+        "1": "SDS L1 (8.14:1)<br>",
+        "2": "SDS L2 (6.75:1)<br>",
+        "3": "SDS L3 (6.12:1)<br>",
+        "4": "SDS L4 (5.14:1)<br>",
         "o": "Other ratio (put in comments)<br>",
         "x": "Not Swerve"
       },
@@ -65,15 +65,15 @@ var config_data = `
       "code": "nob",
       "type": "number"
     },
-    { "name": "Floor pickup Notes",
-      "code": "fpu",
-      "type": "bool"
-    },
     { "name": "Number of notes in Auto?",
       "code": "aut",
-      "type": "text",
+      "type": "number",
       "size": 20,
       "maxSize": 250
+    },
+    { "name": "Number of notes in Tele-op?",
+      "code": "tel",
+      "type": "number",
     },
     { "name": "Can your team climb?",
       "code": "clm",
