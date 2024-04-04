@@ -65,12 +65,12 @@ var config_data = `
       "code": "nob",
       "type": "number"
     },
-    { "name": "Floor pickup Notes",
-      "code": "fpu",
-      "type": "bool"
-    },
     { "name": "# of notes in Auto?",
       "code": "aut",
+      "type": "number"
+    },
+    { "name": "# of notes in Tele-op?",
+      "code": "tel",
       "type": "number"
     },
     { "name": "Scouting Method /<br>Program (ScoutingPASS?)",
