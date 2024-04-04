@@ -40,14 +40,14 @@ var config_data = `
       "code": "sr",
       "type": "radio",
       "choices": {
-        "1": "SDS L1 (8.14:1)<br>",
-        "2": "SDS L2 (6.75:1)<br>",
-        "3": "SDS L3 (6.12:1)<br>",
-        "4": "SDS L4 (5.14:1)<br>",
+        "1": "L1 (8.14:1)<br>",
+        "2": "L2 (6.75:1)<br>",
+        "3": "L3 (6.12:1)<br>",
+        "4": "L4 (5.14:1)<br>",
         "o": "Other ratio (put in comments)<br>",
         "x": "Not Swerve"
       },
-      "defaultValue": "3"
+      "defaultValue":"3"
     },
     { "name": "Drive Motor",
       "code": "mot",
@@ -65,25 +65,23 @@ var config_data = `
       "code": "nob",
       "type": "number"
     },
-    { "name": "Number of notes in Auto?",
+    { "name": "Floor pickup Notes",
+      "code": "fpu",
+      "type": "bool"
+    },
+    { "name": "Autos",
       "code": "aut",
-      "type": "number",
+      "type": "text",
+      "size": 20,
+      "maxSize": 250
     },
-    { "name": "Number of notes in Tele-op?",
-      "code": "tel",
-      "type": "number",
+    { "name": "Scouting Method /<br>Program (ScoutingPASS?)",
+      "code": "sct",
+      "type": "text",
+      "size": 20,
+      "maxSize": 250
     },
-    { "name": "Can your team climb?",
-      "code": "clm",
-      "type": "radio",
-      "choices": {
-        "t": "Yes w/ Trap<br>",
-        "y": "Yes<br>",
-        "n": "No<br>",
-      },
-      "defaultValue": "n"
-    },
-    { "name": "What is special/cool about your robot?",
+    { "name": "Comments",
       "code": "co",
       "type": "text",
       "size": 20,
