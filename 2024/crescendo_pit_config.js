@@ -25,11 +25,10 @@ var config_data = `
       "choices": {
         "s": "Swerve<br>",
         "w": "West Coast/Tank<br>",
-        "b": "Butterfly/Grashopper<br>",
         "m": "Mechanum<br>",
         "o": "Other"
       },
-      "defaultValue": "o"
+      "defaultValue": "s"
     },
     { "name": "Other Drivetrain",
       "code": "odt",
@@ -56,10 +55,11 @@ var config_data = `
       "choices": {
         "n": "Neo<br>",
         "f": "Falcon<br>",
+        "k": "Kraken",
         "c": "CIM<br>",
         "x": "Other<br>"
       },
-      "defaultValue":"x"
+      "defaultValue":"k"
     },
     { "name": "# of Batteries",
       "code": "nob",
