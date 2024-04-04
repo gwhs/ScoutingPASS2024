@@ -69,7 +69,7 @@ var config_data = `
       "code": "fpu",
       "type": "bool"
     },
-    { "name": "Autos",
+    { "name": "Number of notes in Auto?",
       "code": "aut",
       "type": "text",
       "size": 20,
