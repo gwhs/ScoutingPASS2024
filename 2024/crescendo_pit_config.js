@@ -73,6 +73,14 @@ var config_data = `
       "code": "tel",
       "type": "number"
     },
+    { "name": "What is your end game",
+      "code": "end",
+      "type": "radio",
+      "choices": {
+        "t": "Trap<br>",
+        "c": "Climb<br>",
+        "n": "No Climb<br>",
+    },
     { "name": "What is cool about your robot?",
       "code": "co",
       "type": "text",
