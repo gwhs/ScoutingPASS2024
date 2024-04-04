@@ -12,12 +12,12 @@ var config_data = `
     { "name": "Width",
       "code": "wid",
       "type": "number",
-      "defaultValue": "0"
+      "defaultValue": "30"
     },
     { "name": "Weight",
       "code": "wei",
       "type": "number",
-      "defaultValue": "0"
+      "defaultValue": "100"
     },
     { "name": "Drivetrain",
       "code": "drv",
@@ -25,7 +25,7 @@ var config_data = `
       "choices": {
         "s": "Swerve<br>",
         "w": "West Coast/Tank<br>",
-        "m": "Mechanum<br>",
+        "m": "Mecanum<br>",
         "o": "Other"
       },
       "defaultValue": "s"
@@ -47,15 +47,15 @@ var config_data = `
         "o": "Other ratio (put in comments)<br>",
         "x": "Not Swerve"
       },
-      "defaultValue":"x"
+      "defaultValue":"3"
     },
-    { "name": "Drivetrain Motor",
+    { "name": "Drive Motor",
       "code": "mot",
       "type": "radio",
       "choices": {
         "n": "Neo<br>",
         "f": "Falcon<br>",
-        "k": "Kraken",
+        "k": "Kraken<br>",
         "c": "CIM<br>",
         "x": "Other<br>"
       },
