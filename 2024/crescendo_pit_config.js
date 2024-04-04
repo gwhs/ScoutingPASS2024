@@ -1,4 +1,4 @@
-var config_data = 
+var config_data = '
 {
   "dataFormat": "tsv",
   "title": "Scouting PASS 2024",
@@ -77,8 +77,8 @@ var config_data =
       "code": "clm",
       "type": "radio",
       "choices": {
-        "t": "Yes with Trap<br>",
-        "y": "Yes, climb only<br>",
+        "t": "Yes w/ Trap<br>",
+        "y": "Yes<br>",
         "n": "No<br>",
       },
       "defaultValue":"n"
