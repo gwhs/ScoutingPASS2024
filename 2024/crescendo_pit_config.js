@@ -69,11 +69,9 @@ var config_data = `
       "code": "fpu",
       "type": "bool"
     },
-    { "name": "Autos",
+    { "name": "# of notes in Auto?",
       "code": "aut",
-      "type": "text",
-      "size": 20,
-      "maxSize": 250
+      "type": "number"
     },
     { "name": "Scouting Method /<br>Program (ScoutingPASS?)",
       "code": "sct",
