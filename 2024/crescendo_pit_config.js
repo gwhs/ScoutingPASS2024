@@ -79,7 +79,7 @@ var config_data = `
       "choices": {
         "t": "Trap<br>",
         "c": "Climb<br>",
-        "n": "No Climb<br>",
+        "n": "No Climb<br>"
     },
     { "name": "What is cool about your robot?",
       "code": "co",
