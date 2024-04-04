@@ -74,12 +74,14 @@ var config_data = `
       "type": "number"
     },
     { "name": "What is your end game",
-      "code": "end",
+      "code": "endg",
       "type": "radio",
       "choices": {
         "t": "Trap<br>",
         "c": "Climb<br>",
         "n": "No Climb<br>"
+      },
+      "defaultValue":"c"
     },
     { "name": "What is cool about your robot?",
       "code": "co",
