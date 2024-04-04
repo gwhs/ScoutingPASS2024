@@ -75,13 +75,17 @@ var config_data = `
       "size": 20,
       "maxSize": 250
     },
-    { "name": "Scouting Method /<br>Program (ScoutingPASS?)",
-      "code": "sct",
-      "type": "text",
-      "size": 20,
-      "maxSize": 250
+    { "name": "Can your team climb?",
+      "code": "clm",
+      "type": "radio",
+      "choices": {
+        "t": "Yes with Trap<br>",
+        "y": "Yes, climb only<br>",
+        "n": "No<br>",
+      },
+      "defaultValue":"n"
     },
-    { "name": "Comments",
+    { "name": "What is special/cool about your robot?",
       "code": "co",
       "type": "text",
       "size": 20,
